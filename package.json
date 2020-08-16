@@ -8,6 +8,9 @@
     "dev": "concurrently --kill-others \"heroku local\" \"npm run start --prefix ./client\"",
     "postinstall": "npm install --prefix ./server && npm install --prefix ./client && npm run build --prefix ./client"
   },
+  "engines": {
+    "node": "12.x"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
